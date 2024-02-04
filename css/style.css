@@ -1,0 +1,197 @@
+.hidden {
+    display:none;
+}
+
+body {
+    background-color:black;
+    color:white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    border:0;
+    width:100%;
+    height:90px;
+    border-bottom:solid 3px #f8f8f8;
+}
+
+
+#login-form {
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    padding: 5px;
+
+}
+
+#login-form h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#login-form :nth-child(2) {
+    font-size:17px;
+    font-weight: 500;
+    margin:0 auto;
+    display: block;
+    box-sizing: border-box;
+    width:500px;
+    height:60px;
+    padding:10px;
+    border:none;
+    border-radius:50px;
+    border:solid 3px #f8f8f8;
+    color:white;
+    background-color: #000;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#login-form input:last-child {
+    box-sizing: border-box;
+    border:none;
+    font-weight: 600;
+    margin-top:30px;
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    border:solid 2px #f8f8f8;
+    background-color:#000;
+    color:white;
+    cursor:pointer;
+    font-family: 'Noto Sans', sans-serif;
+    transition: 0.3s ease-in-out;
+}
+
+#login-form input:last-child:hover {
+    transform: scale(1.1);
+}
+
+#login-form input:last-child:active {
+    transform: scale(0.9);
+}
+
+#clock {
+    color:white;
+    float:right;
+    margin-right: 20px;
+    padding:10px;
+}
+
+#imageBox {
+    max-width: 500px;
+    height:auto;
+    margin:0 auto;
+    margin-top:50px;
+    border-bottom: solid 3px #f8f8f8;
+    padding-bottom: 30px;
+}
+
+#imageBox img {
+    width:100%;
+    border-radius: 50px;
+    filter:brightness(70%);
+}
+
+#greeting {
+    text-align: center;
+    margin-top:50px;
+}
+
+#todo-form {
+    text-align: center;
+    margin-top:50px;
+}
+
+#todo-form input {
+    font-size:14px;
+    font-weight: 400;
+    margin:0 auto;
+    display: block;
+    box-sizing: border-box;
+    width:300px;
+    height:40px;
+    padding:10px;
+    border:solid 2px #f8f8f8;
+    background-color:#000;
+    color:white;
+    border-radius:50px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#todo-list {
+    text-align: center;
+    list-style: none;
+    margin-top:30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#todo-list li {
+    margin-top:20px;
+}
+
+#todo-list li span {
+    border:solid 2px #f8f8f8;
+    border-radius: 50px;
+    padding: 5px;
+    margin-right: 5px;
+    color:#f8f8f8
+}
+
+#todo-list li button {
+    width:32px;
+    height:32px;
+    border:solid 2px #f8f8f8;
+    background-color:#000;
+    color:#f8f8f8;
+    border-radius: 50px;
+    cursor:pointer;
+}
+
+#quote {
+    text-align: center;
+    margin-top:160px;
+}
+
+#quote span:first-child {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    display: block;
+}
+
+#quote span:last-child {
+    font-family: 'Noto Sans', sans-serif;
+    max-width: fit-content;
+    margin:0 auto;
+    padding-top:10px;
+    border-top:solid 1px #f8f8f8;
+    margin-top:10px;
+    display: block;
+}
+
+#weather {
+    float:left;
+    color:#fff;
+    margin-left: 20px;
+    padding:10px;
+}
+
+#weather span {
+    margin:2px;
+}
+
+#weather span:first-child {
+    display: block;
+}
+
+#weather span:nth-child(2) {
+    display: block;
+}
+
+#weather span:last-child {
+    display: block;
+}
+
+
